@@ -1,0 +1,218 @@
+body {
+    background-color:white;
+    color:black;
+    
+    margin:0 4px 0 0;
+    
+}
+
+p1 {color:#f37360;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+
+p2 {color:#21a4a4;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+
+p3 {color:#fac866;
+	font-weight: bold;
+	font-size: 16px;
+	font-family:Verdana;
+}
+
+p4 {color:#f37360;
+	font-weight: bold;
+	font-size: 18px;
+	font-family:Verdana;
+}
+
+p5 {color:black;
+	font-weight: bold;
+	font-size: 14px;
+	font-family:Calibri;
+}
+
+p{ 	font-family:Calibri;
+	font-size: 14px;
+}
+
+h2 {color: black;
+	font-family:Verdana;
+	font-size: 18px;
+	} 
+	
+
+li { float: left;
+}  
+
+div.c {
+  text-align: justify;
+} 
+
+div.d {
+  text-align: justify;
+} 
+
+div.e {
+  text-align: justify;
+} 
+
+div.f {
+  text-align: justify;
+} 
+
+div.g {
+  text-align: justify;
+} 
+
+div.h {
+  text-align: right;
+}
+
+div.i {
+  text-align: justify;
+}
+
+div.j {
+  text-align: justify;
+}
+
+div.k {
+  text-align: justify;
+}
+.contenedor {
+  ...
+  position: relative;
+}
+
+.d {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right:5%;
+  transform: translate(5%, -50%); 
+}
+.e {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translate(-5%, -50%); 
+}
+
+.f {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  right:5%;
+  transform: translate(5%, 0%); 
+}
+
+.h {
+  position: absolute;
+  top: 5%;
+  left: 60%;
+  right:5%;
+  transform: translate(5%, 0%); 
+}
+
+.g {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right:50%;
+  transform: translate(-5%, 0%); 
+}
+
+.i {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  right:40%;
+  transform: translate(-5%, 0%); 
+}
+
+.j {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right:5%;
+  transform: translate(5%, -50%); 
+}
+
+.k {
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  transform: translate(-5%, 0%); 
+}
+
+div{
+	justify-content:center;
+	align-items: center;
+  } 
+
+.column {
+  float: right;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}    
+
+#mapid {
+  height: 600px;
+  width: 600px;
+  display: center;
+}
+
+/* <-- Estilos para la leyenda de Leaflet-choropleth --> */
+	
+	.legend {
+		color: #555;
+		padding: 6px 8px;
+		font: 12px Arial, Helvetica, sans-serif;
+		font-weight: bold;
+		background: white;
+		background: rgba(255,255,255,0.8);
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+	}
+	.legend ul {
+		list-style-type: none;
+		padding: 0;
+		margin: 0;
+		clear: both;
+	}
+	.legend li {
+		display: inline-block;
+		width: 30px;
+		height: 22px;
+	}
+	.legend .min {
+		float: left;
+		padding-bottom: 5px;
+	}
+	.legend .max {
+		float: right;
+	}
+	
+.estiloIconos {
+	color: black;
+}
+
+.estiloIconos1 {
+	color: white;
+}
+/* #f37360 rojo*/
+
+/* #21a4a4 azul  */
+
+/* #fac866 amarillo  */
